@@ -1,0 +1,277 @@
+"ID"		"CUSTOM_MUSIC"
+"Name"		"Custom Music"
+"Desc"      "Additional tracks! Package made by Lincoln a while ago! It's super complicated so please appreciate it"
+
+// dance done
+// tower done
+// final
+// shrine done
+// reconstructing done
+// naboris
+// medoh
+// ruta
+// rudania 
+
+"Music"
+	{
+	"ID"            "TALOS_DANCE"
+	"Name"          "The Dance of Eternity"
+	"ShortName"     "Eternity Dance"
+	"Sort_key"      "1" // Use the digit to sort, so they appear in numeric order.
+	"Group"         "Custom"
+	"Icon"          "music/custom/eternity_dance_small.jpg"
+	"IconLarge"     "music_lrg/custom/eternity_dance.jpg"
+	"Authors"       "Damjan Mravunac"
+	"Description"   "A song from World C in The Talos Principle. No sample available."
+	"Sample"        "rex/one.ogg"
+	"loop_len"      "3:32"
+	"SoundScript"   "BEE2/music/custom/eternity_dance.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "ZELDA_VAH_RUTA"
+	"Name"          "Divine Beast Vah Ruta"
+	"ShortName"     "Vah Ruta"
+	"Sort_key"      "3"
+	"Group"         "Custom"
+	"Icon"          "music/custom/zelda_ruta.jpg"
+	"IconLarge"     "music_lrg/custom/ruta.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "Chambers 0987.68"
+	"Sample"        "rex/two.ogg"
+	"loop_len"      "3:26"
+	"SoundScript"   "BEE2/music/custom/vah_ruta.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "ZELDA_FINAL_TRIAL"
+	"Name"          "The Final Trial"
+	"ShortName"     "Final Trial"
+	"Sort_key"      "7"
+	"Group"         "Custom"
+	"Icon"          "music/custom/divine_trial.jpg"
+	"IconLarge"     "music_lrg/custom/final_trial.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "The Final Trial DLC dungeon in BotW!"
+	"Sample"        "rex/three.ogg"
+	"loop_len"      "4:09"
+	"SoundScript"   "BEE2/music/custom/final_trial.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "TALOS_TOWER"
+	"Name"          "The Forbidden Tower"
+	"ShortName"     "Forbidden"
+	"Sort_key"      "2"
+	"Group"         "Custom"
+	"Icon"          "music/custom/forbid_tower.jpg"
+	"IconLarge"     "music_lrg/custom/talos_tower.jpg"
+	"Authors"       "Damjan Mravunac"
+	"Description"   "Erroar. No dscriptin. Zawe!"
+	"Sample"        "rex/four.ogg"
+	"loop_len"      "1:21"
+	"SoundScript"   "BEE2/music/custom/forbidden_tower.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "RECON_ORIGINAL"
+	"Name"          "Recon. Ambience (Soundtrack Version)"
+	"ShortName"     "Recon. Ambi. (OST Ver.)"
+	"Sort_key"      "9"
+	"Group"         "Custom"
+	"Icon"          "music/custom/tag_cover.jpg"
+	"IconLarge"     "music_lrg/custom/recon_orig.jpg"
+	"Authors"       "Harry Callaghan"
+	"Description"   "The soundtrack version of Reconstructing Ambience. Of all the Aperture Tag songs, this one definitely has the biggest difference between the in-game and soundtrack versions, followed by Moving Parts."
+	"Sample"        "rex/five.ogg"
+	"loop_len"      "2:46"
+	"SoundScript"   "BEE2/music/custom/recon_ambience_original.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "ZELDA_RUDANIA"
+	"Name"          "Divine Beast Vah Rudania"
+	"ShortName"     "Vah Rudania"
+	"Sort_key"      "5"
+	"Group"         "Custom"
+	"Icon"          "music/custom/zelda_rudania.jpg"
+	"IconLarge"     "music_lrg/custom/rudania.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "Works well in chambers with warm lighting. Maybe old aperture will work well, too."
+	"Sample"        "rex/six.ogg"
+	"loop_len"      "4:27"
+	"SoundScript"   "BEE2/music/custom/vah_rudania.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "ZELDA_SHRINE_TRIALS"
+	"Name"          "Shrine of Trials"
+	"ShortName"     "Shrine"
+	"Sort_key"      "8"
+	"Group"         "Custom"
+	"Icon"          "music/custom/shine_trials_tiny.jpgg"
+	"IconLarge"     "music_lrg/rex/shrine_trials.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "The fishrine f tr9sls sog!!!!mber 19.576.!.!>!/.?"
+	"Sample"        "rex/seven.ogg"
+	"loop_len"      "3:57"
+	"SoundScript"   "BEE2/music/custom/shrine_trials.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "ZELDA_MEDOH"
+	"Name"          "Divine Beast Vah Medoh"
+	"ShortName"     "Vah Medoh"
+	"Sort_key"      "4"
+	"Group"         "Custom"
+	"Icon"          "music/custom/zelda_medoh.jpg"
+	"IconLarge"     "music_lrg/custom/medoh.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "  .   . . . ..     ..  . .    .. "
+	"Sample"        "rex/six.ogg"
+	"loop_len"      "4:48"
+	"SoundScript"   "BEE2/music/custom/vah_medoh.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "ZELDA_NABORIS"
+	"Name"          "Divine Beast Vah Naboris"
+	"ShortName"     "Vah Naboris"
+	"Sort_key"      "6"
+	"Group"         "Custom"
+	"Icon"          "music/custom/zelda_naboris.jpg"
+	"IconLarge"     "music_lrg/custom/naboris.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "A song from BotW. Might go well in Overgrown style."
+	"Sample"        "rex/six.ogg"
+	"loop_len"      "3:24"
+	"SoundScript"   "BEE2/music/custom/vah_naboris.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+
+"Music"
+	{
+	"ID"            "ZELDA_RUDANIA_DARK"
+	"Name"          "Divine Beast Vah Rudania (First Phase)"
+	"ShortName"     "Vah Rudania (Dark)"
+	"Sort_key"      "11"
+	"Group"         "Custom"
+	"Icon"          "music/custom/zelda_rudania.jpg"
+	"IconLarge"     "music_lrg/custom/rudania.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "Works well for dark tests."
+	"Sample"        "rex/six.ogg"
+	"loop_len"      "0:41"
+	"SoundScript"   "BEE2/music/custom/vah_rudania_dark.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "MOVING_PARTS_ORIGINAL"
+	"Name"          "Moving Parts (Soundtrack Version)"
+	"ShortName"     "Moving Parts (OST Ver.)"
+	"Sort_key"      "10"
+	"Group"         "Custom"
+	"Icon"          "music/custom/tag_cover.jpg"
+	"IconLarge"     "music_lrg/custom/recon_orig.jpg"
+	"Authors"       "Harry Callaghan"
+	"Description"   "The soundtrack version of Moving Parts. Sounds very different from the in-game version."
+	"Sample"        "rex/five.ogg"
+	"loop_len"      "2:46"
+	"SoundScript"   "BEE2/music/custom/moving_parts_original.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
+	
+"Music"
+	{
+	"ID"            "ZELDA_FINAL_TRIAL_E3"
+	"Name"          "The Final Trial (Phase 4)"
+	"ShortName"     "Final Trial E3"
+	"Sort_key"      "12"
+	"Group"         "Custom"
+	"Icon"          "music/custom/divine_trial.jpg"
+	"IconLarge"     "music_lrg/custom/final_trial.jpg"
+	"Authors"       "Yasuaki Iwata"
+	"Description"   "Phase 4 of The Final Trial DLC dungeon in BotW!"
+	"Sample"        "rex/three.ogg"
+	"loop_len"      "2:20"
+	"SoundScript"   "BEE2/music/custom/final_trial.wav"
+	"Children"
+		{
+		"tBeam" "VALVE_TEST"
+		"BounceGel" "VALVE_PETI_BOUNCE_GEL"
+		"SpeedGel" "VALVE_CAUSE_SCIENCE"
+		}
+	}
