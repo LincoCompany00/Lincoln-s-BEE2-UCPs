@@ -1,4 +1,4 @@
-# Lincoln-s-BEE2-UCPs
+# Lincoln's-BEE2-UCPs
 My custom BEE2 UCPs I make in my free time. 
 
 If you find any issues with these, please create an issue for it (even though I might not know how to fix it.) When making an issue, please use the Official BEEmod issue rules— like don't combine a bunch of different bugs together (unless they're closely related) 
