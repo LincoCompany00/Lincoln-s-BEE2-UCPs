@@ -2374,66 +2374,6 @@
 				}
 			}
 		}
-
-	"Item"
-		{
-		"ID" "ITEM_LIGHT_BRIDGE"
-		"Version"
-			{
-			"Styles"
-				{
-				"BEE2_1950s"
-					{
-					"Base" "BEE2_CLEAN"
-					"Description"	"1950s emitters use a prototype device to project the bridge from equipment outside the sphere."
-					"Palette"
-						{
-						"0"
-							{
-							"Model" "bee2/retro/light_bridge.3ds"
-							}
-						}
-					"Instances"
-						{
-						"0"
-							{
-							"Name"			"instances/BEE2/50s/items/bridge.vmf"
-							"EntityCount"	"5"
-							}
-						}
-					"IOConf"
-						{
-						"Type"              "AND"
-						"InvertVar"         "$start_enabled"
-						"Enable_Cmd"        "bridge,Enable,,0.00,-1"
-						"Disable_Cmd"       "bridge,Disable,,0.00,-1"
-						"Enable_Cmd"        "pfx,Start,,0.00,-1"
-						"Disable_Cmd"       "pfx,Stop,,0.00,-1"
-						}
-					}
-				"BEE2_1980s"
-					{
-					"Base" "BEE2_CLEAN"
-					"Description"	"1980s emitters are now modern."
-					"Instances"
-						{
-						"0"
-							{
-							"Name"			"instances/BEE2/80s/items/bridge.vmf"
-							"EntityCount"	"1"
-							}
-						}
-					"IOConf"
-						{
-						"Type"              "AND"
-						"InvertVar"         "$start_enabled"
-						"Enable_Cmd"        "bridge,Enable,,0.00,-1"
-						"Disable_Cmd"       "bridge,Disable,,0.00,-1"
-						}
-					}
-				}
-			}
-		}	
 		
 	"Item"
 		{
@@ -2442,77 +2382,7 @@
 			{
 			"Styles"
 				{
-				"BEE2_1950s"    "cube"
-				"BEE2_1980s"
-					{
-					"Base" "BEE2_1950s"
-					"Description"
-						{
-						"" "In the 1980s era, cubes are now the modern designs, although the cube dropper is still old."
-						}
-					"Config" "cube_80s.cfg"
-					"Palette"
-						{
-						"0"
-							{
-							"icon" "palette/cube.png"
-							"bee2" "VALVE_TEST_ELEM:clean/cube.png"
-							"Models"
-								{
-								"" "cube.3ds"
-								"" "cube_falling.3ds"
-								}
-							}
-						"1"
-							{
-							"icon" "palette/companion_cube.png"
-							"bee2" "VALVE_TEST_ELEM:clean/companion_cube.png"
-							"Models"
-								{
-								"" "cubecompanion.3ds"
-								"" "companion_cube_falling.3ds"
-								}
-							}
-						"3"
-							{
-							"icon" "palette/edgeless_safety_cube.png"
-							"BEE2" "VALVE_TEST_ELEM:clean/edgeless_safety_cube.png"
-							"Models"
-								{
-								"" "cubesphere.3ds"
-								"" "cubesphere_falling.3ds"
-								}
-							}
-						"all"
-							{
-							"bee2"	    "VALVE_TEST_ELEM:clean/cubes.png"
-							"pal_name"  "PORTAL2_PuzzleEditor_Palette_weighted_cube"
-							"icon"		"palette/grouped/cubes.png"
-							}
-						}
-					"Instances"
-						{
-						"0"
-							{
-							"Name"			"instances/BEE2/80s/items/cube/standard.vmf"
-							"EntityCount"	"4"
-							}
-						"1"
-							{
-							"Name"			"instances/BEE2/80s/items/cube/companion.vmf"
-							"EntityCount"	"4"
-							}
-						"4"
-							{
-							"Name"			"instances/BEE2/80s/items/cube/monster.vmf"
-							"EntityCount"	"4"
-							}
-						
-						"dropper_standard"  "instances/BEE2/80s/items/cube/drp_standard.vmf"
-						"dropper_companion" "instances/BEE2/80s/items/cube/drp_companion.vmf"
-						"dropper_franken"   "instances/BEE2/80s/items/cube/drp_monster.vmf"
-						}
-					}
+				"BEE2_LINCO_REFURBISHED"    "cube"
 				}
 			}
 		}
@@ -2903,4 +2773,5 @@
 				}
 			}
 		}
+
 	}
