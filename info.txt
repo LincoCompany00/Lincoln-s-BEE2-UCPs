@@ -1,0 +1,93 @@
+"ID"		"PLASMA_BARRIER"
+"Name"		"Plasma Barrier"
+"Desc"      "The Plasma Barrier from the Talos Principle."	
+
+"Item"
+	{
+	"ID" "ITEM_TALOS_PLASMA_BARRIER"
+	"Description"
+		{
+		"" "The Plasma Barrier from the Talos Principle.  "
+		"" "The Plasma Barrier behaves similarly to a fizzler, clearing and blocking portals, but blocks objects instead of destroying them. It also blocks gel.  "
+		"" "This item was custom-made by Lincoln though a lot of trial and error."
+		}
+	"Version"
+		{
+		"Styles"
+			{
+			"BEE2_CLEAN"        "plasma_barrier"
+			"BEE2_OVERGROWN"
+				{
+				"Folder" "plasma_barrier"
+				"Config" "tpb_over.cfg"
+				"Instances"
+					{
+					"1"             "instances/BEE2/over/items/fr/csf_model.vmf"
+					"bee2_static"   "instances/BEE2/over/items/fr/csf_model_static.vmf"
+					}
+				}
+			"BEE2_PORTAL_1"
+				{
+				"Folder" "plasma_barrier"
+				"Config" "tpb_p1.cfg"
+				"Palette"
+					{
+					"0"
+						{
+						"Model" "BEE2/p1/fizzler/fr_compressed_smoke_field.mdl"
+						}
+					"1"
+						{
+						"Model" "BEE2/p1/fizzler/fr_compressed_smoke_field.mdl"
+						}
+					}
+				"Instances"
+					{
+					"0" "instances/BEE2/p1/items/fr/csf_base.vmf"
+					"1" "instances/BEE2/p1/items/fr/csf_model.vmf" 
+					}
+				"IOConf"
+					{
+					"Type"          "AND"
+					"InvertVar"     "$start_enabled"
+					"Enable_Cmd"    "clip,Enable,,0.00,-1"
+					"Disable_Cmd"   "clip,Disable,,0.00,-1"
+					"Enable_Cmd"    "fizz,Enable,,0.00,-1"
+					"Disable_Cmd"   "fizz,Disable,,0.00,-1"
+					}
+				}
+			"BEE2_1950s"
+				{
+				"Folder" "plasma_barrier"
+				"Config" "tpb_50s.cfg"
+				"Palette"
+					{
+					"0"
+						{
+						"Model" "BEE2/retro/fr_compressed_smoke_field.mdl"
+						"Icon"  "palette/50s/fr/csf.png"
+						"BEE2"  "50s/talos/tpb.jpg"
+						}
+					"1"
+						{
+						"Model" "BEE2/retro/fr_compressed_smoke_field.mdl"
+						}
+					}
+				"Instances"
+					{
+					"0" "instances/BEE2/50s/items/fr/csf_base.vmf"
+					"1" "instances/BEE2/50s/items/fr/csf_model.vmf" 
+					}
+				"IOConf"
+					{
+					"Type"          "AND"
+					"InvertVar"     "$start_enabled"
+					"Enable_Cmd"    "clip,Enable,,0.00,-1"
+					"Disable_Cmd"   "clip,Disable,,0.00,-1"
+					"Enable_Cmd"    "fizz,Enable,,0.00,-1"
+					"Disable_Cmd"   "fizz,Disable,,0.00,-1"
+					}
+				}
+			}
+		}
+	}
